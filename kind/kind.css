@@ -1,0 +1,93 @@
+.kindDisplay_kind_KindBlock {
+    display: flex;
+    flex-direction: column;
+}
+
+.kindDisplay_kind_Title {
+    font-size: 30px;
+    width: 10%
+}
+
+.kindDisplay_kind_KindBlock_Title {
+    font-size: 26px;
+    border-bottom: 1px solid black;
+}
+
+.kindDisplay_kind_KindBlock_Menu_Item {
+    display: flex;
+    margin-top:75px;
+    margin-bottom:100px;
+}
+
+.kindDisplay_kind {
+    display: flex;
+    margin-left:50px;
+    margin-right:50px;
+    margin-top:50px;
+}
+
+.kindDisplay_kind_KindBlock {
+    width: 90%
+}
+.kindDisplay_kind_KindBlock_MenuRuller{
+    display:flex;
+    flex-direction: row-reverse;
+}
+.kindDisplay_kind_KindBlock_MenuRuller_Show{
+    background:none;
+    border:none;
+    font-size:18px;
+    display:flex;
+    justify-content: center;
+}
+.kindDisplay_kind_KindBlock_Menu_Item_Describe {
+    width: 400px;
+    margin-left:300px;
+    font-size:20px;
+}
+
+.kindDisplay_kind_KindBlock_Menu_Show_MenuDissappear {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.8s ease-out;
+    justify-content: center;
+    margin-bottom: calc(10px + 38*(100vw/1750));
+    
+}
+
+.active {
+    max-height: 800px;
+}
+.Show_Arrow {
+    transition: transform 1s;
+}
+.Show_Arrow_rotate {
+    transform: rotate(180deg);
+}
+.ThreeBlockInfo{
+    display:flex;
+    flex-direction: column;
+    font-size:20px;
+    width:300px;
+    margin-left:250px;
+
+}
+.ThreeBlockInfo div{
+    padding-bottom:20px;
+}
+.kindDisplay_kind_KindBlock_Menu_Item_Img{
+    width:100%;
+    height: 100%;
+}
+.kindDisplay_kind_KindBlock_Menu_Item_ImgBlock{
+    width:250px;
+    height:250px;
+}
+.ThreeBlockInfo_OrderButton{
+    border: 2px solid #000000;
+border-radius: 50px;
+background-color: white;
+width:120px;
+height:40px;
+font-size:18px;
+}

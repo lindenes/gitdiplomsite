@@ -1,0 +1,94 @@
+.ImgTitleText{
+    color:white;
+    padding-top:250px;
+    font-size:32px;
+    padding-left:100px;
+}
+.reviews{
+    background-color: #EEEDED;
+    padding-top:50px;
+   
+}
+.reviews_list{
+    margin-left:100px;
+    margin-right:100px;
+    
+}
+.reviews_list_item{
+    border-bottom:1px solid black;
+    padding-top:50px;
+    padding-bottom:50px;
+    display:flex;
+
+}
+.reviews_list_item_Avatar{
+    width: 118px;
+height: 105px;
+    
+}
+.reviews_list_item_TextBlock{
+    margin-left:50px;
+}
+.reviews_list_item_TextBlock_Name{
+    font-size: 32px;
+
+}
+.reviews_list_item_TextBlock_Text{
+    font-size: 20px;
+    margin-top:35px;
+    width:800px;
+
+}
+.More{
+    border:2px solid black;
+    border-radius: 20px;
+    width:200px;
+    height:35px;
+    margin-left:40%;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+.Feedback{
+    background-color: #EEEDED;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:100px;
+    padding-top:50px;
+}
+.Feedback_Title{
+    font-size:36px;
+}
+.Feedback_Form_Form{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:100px;
+    
+
+}
+.Feedback_Form{
+    border:2px solid black;
+    border-radius: 40px;
+    width:400px;
+    height:500px;
+}
+.Feedback_Form_Form_Input{
+    margin-bottom:50px;
+    border:none;
+    background:none;
+    outline: none;
+    font-size: 24px;
+    border-bottom: 1px solid black;
+    color:black;
+}
+.Feedback_Form_Form_Submit{
+    width:150px;
+    height: 50px;
+    font-size:24px;
+    border:2px solid black;
+    border-radius: 15px;
+
+}
